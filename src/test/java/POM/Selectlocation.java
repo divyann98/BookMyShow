@@ -30,7 +30,5 @@ public class Selectlocation
 
         Selectlocation.Bangalore.click();
 
-
-
     }
 }

@@ -13,7 +13,7 @@ public class Movie
     public static WebElement clickOnMovies;
 
     @FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"listing-mob-1\"]/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ImageView")
-public static WebElement clickOnMovieName;
+    public static WebElement clickOnMovieName;
 
     public Movie(AndroidDriver<WebElement> app)
     {

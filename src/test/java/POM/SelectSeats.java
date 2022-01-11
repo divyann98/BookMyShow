@@ -28,13 +28,13 @@ public class SelectSeats
         generic.tapByCoordinates(295,1679);
 
         generic.explicitWait(ExpectedConditions.visibilityOf(SelectSeats.tapOnLetsSelectSeats),10);
-          SelectSeats.tapOnLetsSelectSeats.click();
+        SelectSeats.tapOnLetsSelectSeats.click();
 
-          generic.implicitWait(10);
+        generic.implicitWait(10);
 
-          Thread.sleep(2000);
+        Thread.sleep(2000);
 
-          generic.tapByCoordinates(102,629);
+        generic.tapByCoordinates(102,629);
 
         generic.tapByCoordinates(224,629);
 

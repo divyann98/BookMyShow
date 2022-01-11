@@ -19,8 +19,6 @@ import java.util.Properties;
 
 public class ContactDetails
 {
-
-
     @FindBy(id = "com.bt.bms:id/email_address")
     public static WebElement tapOnEmailAddress;
 
@@ -33,8 +31,6 @@ public class ContactDetails
     @FindBy(id = "com.bt.bms:id/phone_number")
     public static WebElement enterPhoneNumber;
 
-    @FindBy()
-    public static WebElement updateDetails;
 
     public ContactDetails(AndroidDriver<WebElement> app)
     {
@@ -55,8 +51,10 @@ public class ContactDetails
         tapOnPhoneNumber.click();
         tapOnPhoneNumber.sendKeys(phone);
 
-
         generic.keyboard();
+
+        generic.tapByCoordinates(510,2125);
+
 
 
 

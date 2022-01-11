@@ -19,7 +19,6 @@ public void skipSigninPage()
 {
     Signin.skip_signin.click();
 
-
 }
 
 
