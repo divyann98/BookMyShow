@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Grouping TestNg">
+    <groups>
+        <run>
+            <include name="book"></include>
+
+        </run>
+    </groups>
+
+    <test name="Grouping TestNg">
+        <classes>
+
+            <class name="com.run.bookmyshow.BookMyShowTest"></class>
+        </classes>
+
+    </test>
+
+</suite>
